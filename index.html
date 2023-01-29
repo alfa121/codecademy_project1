@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <title>Common CSS Properties</title>
+</head>
+<body>
+  <header><h1>Common CSS Properties</h1></header>
+  
+  <h2>Different Types of Selectors</h2>
+  <div class="firstPara">
+    <p>Selectors are used to style HTML elements according to their type and/or attributes.
+      <br>
+       All markups can be selected with the universal selector: "
+       <span class="univeralSelector">*</span>  "{
+        /* declarations here */
+      }
+    </p>
+  </div>
+  
+  <table>
+    <thead>
+      <tr>
+        <th>Select by</th>
+        <th>Syntax</th>
+        <th>Example</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Type</td>
+        <td>element-name {
+        /* declarations here */}</td>
+        <td>
+        p {
+          text-align: center;
+          color: red;}</td>
+      </tr>
+
+      <tr>
+        <td>Attribute</td>
+        <td>'id' (in the HTML file) '#' (in CSS file) 
+          <br>'class' (in HTML file) '.' (in CSS file)</td>
+        <td>#para1 {
+          text-align: center;
+          color: red;
+        }
+        <br>
+        .center {
+          text-align: center;
+          color: red;}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>CSS Units</h2>
+  
+  <table>
+    <thead>
+      <tr>
+        <th>Absolute Units</th>
+        <th>Relative Units</th>
+      </tr>
+    </thead>
+    <tb>
+      <td>
+        <ul>
+          <li>
+            em: Property size relative to property size of direct parent element (most common)
+          </li>
+          <li>
+            rem: Property size relative to property size of direct root element
+          </li>
+          <li>
+            vw: Percentage based on width of screen
+          </li>
+          <li>
+            vh: Percentage based on height of screen
+          </li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>px: Pixels (most common)</li>
+          <li>pt: Points</li>
+          <li>mm: Millimeters</li>
+        </ul>
+      </td>
+    </tb>
+  </table>
+</body>
+</html>
